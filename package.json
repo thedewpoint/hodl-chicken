@@ -1,0 +1,20 @@
+{
+  "name": "hodl-chicken",
+  "version": "1.0.0",
+  "description": "chicken tournament for eth hodlers",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "ethereum",
+    "smart",
+    "contracts",
+    "chicken"
+  ],
+  "author": "DJ Bowden",
+  "license": "Apache-2.0"
+}
