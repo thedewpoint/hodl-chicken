@@ -11,7 +11,9 @@ HodlChicken chicken;
   }
   function testOwnerAddressIsSet() {
     Assert.equal(tx.origin, chicken.owner(), "Owner address should be set");
-
+  }
+  function testTimeStamp(){
+     Assert.equal(29, chicken.getTime(), "Owner address should be set");
   }
 
 }
