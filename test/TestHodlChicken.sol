@@ -13,7 +13,7 @@ HodlChicken chicken;
     Assert.equal(tx.origin, chicken.owner(), "Owner address should be set");
   }
   function testTimeStamp(){
-     Assert.equal(29, chicken.getTime(), "Owner address should be set");
+     Assert.equal(2017, chicken.getTime(), "Owner address should be set");
   }
 
 }
